@@ -61,3 +61,27 @@ name=input("Enter value for name = ")
 age= input("Enter value for age = ")
 print("user name = ",name)
 print("User age = ",age)
+
+
+
+# How to use if-else in python
+
+x=10
+y=5
+
+if x==y:
+    print("Yes, X is Equals to Y !!")
+else:
+    print("No, X is not equals to Y !!")
+
+
+Marks= int(input())
+
+if Marks>=90:
+    print("Grade is A+")
+elif Marks>=80 and Marks<90:
+    print("Grade is A")
+elif Marks>=70 and Marks<80:
+    print("Grade is B+")
+else:
+    Print("Fail")
